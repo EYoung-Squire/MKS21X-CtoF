@@ -1,15 +1,15 @@
 public class CtoFTester {
 
-  //The parameter should be celcius
+  //The parameter should be celsius
   //The type should be double
   //The function should return double farenheit
-  public static double celciusToFarenheit(double celcius) {
-    double farenheit = (celcius * 1.8) + 32;
+  public static double celsiusToFarenheit(double celsius) {
+    double farenheit = (celsius * 1.8) + 32;
     return farenheit;
   }
   
   public static void main(String[] args) {
-    celciusToFarenheit(25.4);
+    celsiusToFarenheit(25.4);
   }
 
 }
